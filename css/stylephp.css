@@ -1,0 +1,114 @@
+
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            max-height: 100px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.575);
+        }
+        
+        /* Estilos do logotipo */
+        .logo-container {
+            padding: 20px 0;
+        }
+        
+        .logo {
+            float: left; 
+            width: 100px;
+            height: 100px; 
+            margin-right: 20px; 
+            border: 2px solid #0000005d; 
+            border-radius: 50%; 
+            box-shadow:2px 4px 15px black;
+            position: relative;
+            top: -25px;
+        }
+        
+        .logo-container::after {
+            content: "";
+            display: block;
+            clear: both; /* Evita que outros elementos se sobreponham à imagem */
+        }
+        
+        
+        /* Estilos para o elemento h1 do cabeçalho */
+        h1{
+            font-family: fantasy;
+            font-size: 55px;
+            font
+            text-shadow: 3px 3px 5px #007bff;
+            color: #000000;
+            margin-top: auto; 
+            margin-bottom: 10px;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        /* Estilos do formulário */
+        form {
+            margin: 20px 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        
+        /* Mensagens de feedback */
+        .success {
+            color: #009900;
+            font-weight: bold;
+        }
+        
+        .error {
+            color: #ff0000;
+            font-weight: bold;
+        }
+        
